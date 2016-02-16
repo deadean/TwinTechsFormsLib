@@ -15,11 +15,11 @@ namespace TwinTechs.Ios.Extensions
 
 		#region GetRenderer Hack
 
-		private delegate IVisualElementRenderer GetRendererDelegate (BindableObject bindable);
+		private delegate IVisualElementRenderer GetRendererDelegate (VisualElement bindable);
 
 		private static GetRendererDelegate _getRendererDelegate;
 
-		public static IVisualElementRenderer GetRenderer (this BindableObject bindable)
+		public static IVisualElementRenderer GetRenderer (this VisualElement bindable)
 		{
 			if (bindable == null) {
 				return null;
