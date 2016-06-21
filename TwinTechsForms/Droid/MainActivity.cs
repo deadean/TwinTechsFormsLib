@@ -23,7 +23,7 @@ namespace TwinTechsFormsExample.Droid
 	[Activity (Label = "TwinTechsFormsExample.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
-		DummyIncludes _dummyIncludes;
+		//DummyIncludes _dummyIncludes;
 		GestureTouchDispatcher _gestureTouchDispatcher;
 
 		protected override void OnCreate (Bundle bundle)
